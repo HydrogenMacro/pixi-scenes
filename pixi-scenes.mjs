@@ -60,7 +60,7 @@ export class Scene extends Container {
 }
 
 /** 
- A scene manager that holds scenes.
+ A scene manager that can hold scenes.
  */
 export class SceneManager {
   /**
@@ -85,6 +85,8 @@ export class SceneManager {
   app;
   /**
    * A reference to the screen of the app.
+   * This is implemented because getting the app's 
+   * width and height is a common action.
    * @type {PIXI.Screen}
    */
   screen;
