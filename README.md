@@ -11,7 +11,7 @@ Dedicated documentation is coming soon™, but there are JSDoc comments. Overall
 
 In main file:
 ```js
-import { SceneManager } from "https://cdn.jsdelivr.net/gh/hydrogenmacro/pixi-scenes@master/pixi-scenes.mjs";
+import { SceneManager } from "https://cdn.jsdelivr.net/gh/hydrogenmacro/pixi-scenes@master/dist/pixi-scenes.mjs";
 // import the scenes
 import MenuScene from "./scenes/menu.js";
 import GameScene from "./scenes/game.js";
@@ -27,7 +27,7 @@ scenes.changeSceneTo("menu"); // setting the initial scene to be displayed
 ```
 In `scenes/menu.js`:
 ```js
-import { Scene } from "https://cdn.jsdelivr.net/gh/hydrogenmacro/pixi-scenes/pixi-scenes.mjs";
+import { Scene } from "https://cdn.jsdelivr.net/gh/hydrogenmacro/pixi-scenes@master/dist/pixi-scenes.mjs";
 import * as PIXI from "/pixi.mjs";
 
 // Scene extends container, so you can add children directly to `this` 
