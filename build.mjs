@@ -8,6 +8,7 @@ await esbuild.build({
   format: "esm",
   target: "es6",
   outdir: "dist",
+  treeShaking: true,
   outExtension: { ".js": ".mjs" }
 });
 await esbuild.build({
@@ -17,6 +18,8 @@ await esbuild.build({
   sourcemap: true,
   target: "es6",
   outdir: "dist",
+  treeShaking: true,
+
 });
 await esbuild.build({
   entryPoints: ["src/pixi-scenes.mjs"],
@@ -26,7 +29,8 @@ await esbuild.build({
   format: "esm",
   target: "es6",
   outdir: "dist",
-  outExtension: { ".js": ".mjs" }
+  outExtension: { ".js": ".mjs" },
+  treeShaking: true,
 });
 await esbuild.build({
   entryPoints: ["src/pixi-scenes.mjs"],
@@ -35,4 +39,5 @@ await esbuild.build({
   sourcemap: true,
   target: "es6",
   outdir: "dist",
+  treeShaking: true,
 });

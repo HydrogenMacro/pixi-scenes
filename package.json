@@ -1,5 +1,6 @@
 {
   "devDependencies": {
     "esbuild": "0.21.3"
-  }
+  },
+  "sideEffects": false
 }

@@ -1,7 +1,7 @@
 import {
   Container,
   Ticker,
-} from "https://cdn.jsdelivr.net/npm/pixi.js/dist/pixi.mjs";
+} from "./deps/pixi.mjs";
 
 /**
  * An abstract scene to be extended. This is intended to be
